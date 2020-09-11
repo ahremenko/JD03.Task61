@@ -7,8 +7,7 @@ CREATE TABLE IF NOT EXISTS genre (
  
 CREATE TABLE IF NOT EXISTS author (
     id INT AUTO_INCREMENT PRIMARY KEY,
-    name VARCHAR(255) NOT NULL,
-    start_date DATE
+    name VARCHAR(255) NOT NULL
 ) ENGINE=INNODB;
 
 drop table book;
